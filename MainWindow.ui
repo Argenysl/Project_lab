@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>368</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>368</width>
+    <height>434</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>368</width>
+    <height>434</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralwidget{
+background-color: qlineargradient(spread:pad, x1:0.689, y1:0.233, x2:0.578, y2:0.136273, stop:0.0945274 rgba(83, 79, 20, 255), stop:1 rgba(255, 255, 255, 255))}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="MainWindow_Header">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>271</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Comic Sans MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Shapes Calculator</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Area_button">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>170</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Comic Sans MS&quot;;
+border-radius : 15; 
+background-color: rgb(255, 233, 188);
+                              border : 2px solid black
+</string>
+    </property>
+    <property name="text">
+     <string>Area</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Perimeter_button">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>280</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Comic Sans MS&quot;;
+border-radius : 15; 
+background-color: rgb(255, 233, 188);
+                              border : 2px solid black
+</string>
+    </property>
+    <property name="text">
+     <string>Perimeter</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="square">
+    <file>square.png</file>
+  </qresource>
+  <qresource prefix="triangle">
+    <file>triangle.png</file>
+  </qresource>
+  <qresource prefix="rectangle">
+    <file>rectangle.png</file>
+  </qresource>
+  <qresource prefix="circle">
+    <file>circle.png</file>
+  </qresource>
+</RCC>
